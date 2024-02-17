@@ -1,0 +1,19 @@
+.container{
+   transition: 1s;
+   position: absolute;
+   width: 0;
+   height: 100vh;
+   color: transparent;
+   background-color: #0c0c0c8c;
+   backdrop-filter: blur(50px);
+   top: 0;
+   left: 0;
+   z-index: 999;
+   overflow: hidden;
+}
+
+.open{
+   width: 100vw;
+   transition: .5s;
+   
+}

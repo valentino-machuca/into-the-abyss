@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -13,20 +14,20 @@ code {
 }
 
 @media screen and (max-width: 900px) {
-  body{
+  body {
     transition: .3s;
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  body{
+  body {
     font-size: 14px;
   }
 }
 
 @media screen and (min-width: 2000px) {
-  body{
+  body {
     font-size: 16px;
   }
 }

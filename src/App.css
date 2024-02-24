@@ -3,5 +3,41 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: #161616;
+  background-color: #000000;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  --scrollbar-border-thickness: 0px;
+  --scrollbar-border-radius: 10px;
+  --scrollbar-thumb-color: #7F7F7F;
+  --scrollbar-track-color: #22222200;
+  --scrollbar-width: 5px;
+}
+
+.App::-webkit-scrollbar {
+  width: var(--scrollbar-width, 20px);
+  height: var(--scrollbar-height, 20px);
+}
+
+.App::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color, #3B82F6);
+  border: var(--scrollbar-border-thickness, 3px) solid var(--scrollbar-border-color, rgb(255, 255, 255));
+  border-radius: var(--scrollbar-border-radius, 4px);
+}
+
+.App::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color, #A1A1AA);
+}
+
+.App::-webkit-scrollbar-corner {
+  background: var(--scrollbar-corner-color, #FFFFFF);
+  border: var(--scrollbar-border-thickness, 3px) solid var(--scrollbar-border-color, rgb(255, 255, 255));
+  border-radius: var(--scrollbar-border-radius, 4px);
+}
+
+.App::-webkit-scrollbar-button:vertical:start:increment,
+#preview::-webkit-scrollbar-button:vertical:end:decrement,
+#preview::-webkit-scrollbar-button:horizontal:start:increment,
+#preview::-webkit-scrollbar-button:horizontal:end:decrement {
+  display: var(--show-double-buttons, none);
 }

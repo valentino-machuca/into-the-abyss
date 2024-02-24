@@ -1,7 +1,17 @@
 {
    "nav.home": "Home",
    "nav.about": "About",
+   "nav.requirements": "Requirements",
    "intro.first_title": "THE ABYSS WHISPERS",
    "intro.second_title": "SECRETS, FEAR INVADES YOU",
-   "intro.desc": "Dive into the depths of a post-apocalyptic Buenos Aires in this exciting open-world survival game. Based on the cinematic universe of 'Into the abyss', each step you take will take you closer to the edge between life and darkness."
+   "intro.desc": "Dive into the depths of a post-apocalyptic Buenos Aires in this exciting open-world survival game. Based on the cinematic universe of 'Into the abyss', each step you take will take you closer to the edge between life and darkness.",
+   "about.sys_requirements": "System requirements",
+   "about.message": "To ensure an optimal and smooth experience when playing The Path Into The Abyss, it is important to know and meet the recommended and minimum system requirements. These requirements are designed to ensure that your computer has the performance necessary to successfully run the game, whether you're diving into intense battles, exploring the abyss, or enjoying the immersive narrative.",
+   "about.os": "OS Version",
+   "about.graphics": "Graphics",
+   "about.processor": "Processor",
+   "about.memory": "Memory",
+   "about.disc": "Disc Space",
+   "about.recommend": "Show recommended requirements",
+   "about.minimum": "Show minimum requirements"
 }

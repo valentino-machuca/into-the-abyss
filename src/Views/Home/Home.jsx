@@ -1,21 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 import s from './Home.module.scss';
 
 //Componentes
 import Navbar from '../../Components/Navbar/Navbar';
 
 //assets
-import background from '../../Assets/background.jpg';
+import background from '../../Assets/main-background.png';
 import Presentation from '../../Components/Presentation/Presentation';
 import TranslateButton from '../../Components/TranslateButton/TranslateButton';
-import OnTranslate from '../../Components/TranslateButton/OnTranslate/OnTranslate';
 
-export default function Home() {
-  const [onTranslate, setOnTranslate] = useState(false);
+export default function Home({setOnTranslate}) {
 
   return (
-    <div className={s.container}>
-        <OnTranslate onTranslate={onTranslate}/>
+    <div className={s.container} id="home">
         <TranslateButton setOnTranslate={setOnTranslate}/>
         <Navbar/>
         <Presentation/>

@@ -4,6 +4,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   height: 100vh;
 
    .background{
       width: 100vw;
@@ -12,9 +13,10 @@
       top: 0;
       left: 0;
       z-index: 1;
-      object-fit: cover;
       margin: 0;
       padding: 0;
-      filter: brightness(.8) contrast(1);
+      filter: brightness(.6) contrast(1.1) blur(4px);
+      -webkit-mask-image: linear-gradient(to top, transparent, black, black);
+      mask-image: linear-gradient(to top, transparent, black, black);
    }
 }

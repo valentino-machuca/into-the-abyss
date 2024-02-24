@@ -1,11 +1,11 @@
 .container{
-   position: absolute;
+   position: fixed;
    top: 0;
    mask: linear-gradient(to top, transparent, black 35%);
    backdrop-filter: blur(3px);
    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
    width: 100%;
    height: 10vh;
@@ -17,6 +17,7 @@
       height: 100%;
       font-family: 'Montserrat', sans-serif;
       color: #E1E1E1;
+      margin-left: 10%;
 
       .logo__primary{
          @extend .no-margin-padding;
@@ -35,6 +36,8 @@
    .menu{
       @extend .flex-center-div;
       height: 100%;
+      margin-right: 10%;
+
       
       .option{
          transition: .3s;
@@ -50,31 +53,6 @@
          &:hover{
             transition: .3s;
             background-color: #3a4d66;
-         }
-      }
-   }
-
-   .teaser{
-      @extend .flex-center-div;
-
-      p{
-         transition: .3s;
-         width: 130px;
-         text-align: center;
-         padding: 8px;
-         border: 1px solid #E1E1E1;
-         border-radius: 5px;
-         color: #E1E1E1;
-         text-decoration: none;
-         font-family: 'Montserrat', sans-serif;
-         font-size: 1em;
-
-         &:hover{
-            transition: .3s;
-            cursor: pointer;
-            scale: 1.08;
-            color: #3a4d66;
-            background-color: #E1E1E1;
          }
       }
    }

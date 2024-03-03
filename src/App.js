@@ -4,6 +4,7 @@ import './App.css';
 import OnTranslate from './Components/TranslateButton/OnTranslate/OnTranslate';
 import Home from './Views/Home/Home';
 import Requirements from './Views/Requirements/Requirements';
+import About from './Views/About/About';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     <div className="App">
         <OnTranslate onTranslate={onTranslate}/>
         <Home onTranslate={onTranslate} setOnTranslate={setOnTranslate}/>
-        <Requirements onTranslate={onTranslate} setOnTranslate={setOnTranslate} id="requirements"/>
+        <About onTranslate={onTranslate} setOnTranslate={setOnTranslate}/>
+        <Requirements onTranslate={onTranslate} setOnTranslate={setOnTranslate}/>
     </div>
   );
 }

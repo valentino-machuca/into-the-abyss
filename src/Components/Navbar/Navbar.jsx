@@ -11,12 +11,12 @@ export default function Navbar() {
          href: '#home'
       },
       {
-         label: t('nav.requirements'),
-         href: '#requirements'
-      },
-      {
          label: t('nav.about'),
          href: '#about'
+      },
+      {
+         label: t('nav.requirements'),
+         href: '#requirements'
       },
       {
          label: 'Devlogs',

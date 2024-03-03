@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import s from './Requirements.module.scss';
 
 //assets
-import backgroundAbout from '../../Assets/background-about.png';
+import backgroundRequeriments from '../../Assets/background-requirements.png';
 import { useTranslation } from 'react-i18next';
 import { PiComputerTower } from "react-icons/pi";
 import { BsMotherboard } from "react-icons/bs";
@@ -120,7 +120,7 @@ const Requirements = () => {
             }
         </div>
       </div>
-      <img src={backgroundAbout} alt='background-about' className={s.background}/>
+      <img src={backgroundRequeriments} alt='background-about' className={s.background}/>
     </div>
   )
 }

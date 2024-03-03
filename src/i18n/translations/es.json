@@ -3,7 +3,7 @@
    "nav.about": "Información",
    "nav.requirements": "Requerimientos",
    "intro.first_title": "EL ABISMO SUSURRA SECRETOS",
-   "intro.second_title": "TE INVADE EL MIEDO",
+   "intro.second_title": "TE CONSUME EL MIEDO",
    "intro.desc": "Sumérgete en las profundidades de una Buenos Aires postapocalíptica en este emocionante juego de supervivencia de mundo abierto. Basado en el universo cinematográfico de 'Me encontrarás en lo profundo del abismo', cada paso que des te llevará más cerca del borde entre la vida y la oscuridad.",
    "about.sys_requirements": "Requerimientos de sistema",
    "about.message": "Para garantizar una experiencia óptima y fluida al jugar The Path Into The Abyss, es importante conocer y cumplir con los requerimientos del sistema recomendados y mínimos. Estos requisitos están diseñados para asegurar que tu computadora tenga el rendimiento necesario para ejecutar el juego de manera satisfactoria, ya sea que estés sumergiéndote en intensas batallas, explorando el abismo o disfrutando de la narrativa envolvente.",
@@ -13,5 +13,11 @@
    "about.memory": "Memoria",
    "about.disc": "Almacenamiento",
    "about.recommend": "Mostrar requerimientos recomendados",
-   "about.minimum": "Mostrar requerimientos minimos"
+   "about.minimum": "Mostrar requerimientos minimos",
+   "info.title": "Adentrate en el abismo",
+   "info.information": "Adéntrate en las profundidades del Abismo, un lugar oscuro y siniestro situado en el corazón del Gran Buenos Aires, donde el horror se arraiga en cada rincón y la muerte acecha en cada sombra. En THE PATH INTO THE ABYSS, te enfrentarás a un viaje sangriento a través de un mundo abierto plagado de criaturas aberrantes y terrores inimaginables.",
+   "info.information2": "No solo enfrentarás criaturas monstruosas, sino también la desesperación humana mientras luchas por conseguir suministros escasos, como alimentos, medicinas y agua, en un mundo donde la escasez y el caos reinan supremos.",
+   "info.information3": "Prepárate para una experiencia que te hará dudar de tu cordura y te perseguirá en tus pesadillas más profundas.",
+   "info.quote": "'El miedo es la emoción más antigua e intensa de la humanidad, y el más antiguo e intenso de los miedos es el miedo a lo desconocido.' - H.P. Lovecraft",
+   "info.title_more": "Explora el abismo"
 }

@@ -5,7 +5,7 @@ import s from './Home.module.scss';
 import Navbar from '../../Components/Navbar/Navbar';
 
 //assets
-import background from '../../Assets/main-background.png';
+import backgroundAboutGif from '../../Assets/background-about-gif.gif';
 import Presentation from '../../Components/Presentation/Presentation';
 import TranslateButton from '../../Components/TranslateButton/TranslateButton';
 
@@ -16,7 +16,7 @@ export default function Home({setOnTranslate}) {
         <TranslateButton setOnTranslate={setOnTranslate}/>
         <Navbar/>
         <Presentation/>
-        <img src={background} alt='background' className={s.background}/>
+        <img src={backgroundAboutGif} alt='background' className={s.background}/>
     </div>
   )
 }

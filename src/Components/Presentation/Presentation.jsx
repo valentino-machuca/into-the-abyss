@@ -13,10 +13,10 @@ export default function Presentation() {
     <div className={s.container}>
         <div className={s.title}>
           <p style={{fontWeight: 600}}>{t('intro.first_title')}</p>
-          <p style={{fontWeight: 300, marginBottom: '20px'}}>{t('intro.second_title')}</p>
+          <p style={{fontWeight: 300, marginBottom: '30px'}}>{t('intro.second_title')}</p>
           <span>{t('intro.desc')}</span>
-          <div className={s.teaser} onClick={redirectTeaser}>
-            <p>Concept Teaser</p>
+          <div className={s.teaser}>
+            <p onClick={redirectTeaser}>Concept Teaser</p>
           </div>
         </div>
     </div>

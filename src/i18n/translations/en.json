@@ -2,7 +2,7 @@
    "nav.home": "Home",
    "nav.about": "About",
    "nav.requirements": "Requirements",
-   "intro.first_title": "THE ABYSS WHISPERS",
+   "intro.first_title": "THE ABYSS WHISPERS SECRETS",
    "intro.second_title": "SECRETS, FEAR INVADES YOU",
    "intro.desc": "Dive into the depths of a post-apocalyptic Buenos Aires in this exciting open-world survival game. Based on the cinematic universe of 'Into the abyss', each step you take will take you closer to the edge between life and darkness.",
    "about.sys_requirements": "System requirements",
@@ -13,5 +13,11 @@
    "about.memory": "Memory",
    "about.disc": "Disc Space",
    "about.recommend": "Show recommended requirements",
-   "about.minimum": "Show minimum requirements"
+   "about.minimum": "Show minimum requirements",
+   "info.title": "Go into the abyss",
+   "info.information": "Enter the depths of the Abyss, a dark and sinister place located in the heart of Greater Buenos Aires, where horror takes root in every corner and death lurks in every shadow. In THE PATH INTO THE ABYSS, you will face a journey gory through an open world filled with aberrant creatures and unimaginable terrors.",
+   "info.information2": "You will not only face monstrous creatures, but also human desperation as you fight for scarce supplies, such as food, medicine, and water, in a world where scarcity and chaos reign supreme.",
+   "info.information3": "Prepare for an experience that will make you doubt your sanity and haunt you in your deepest nightmares.",
+   "info.quote": "'Fear is the oldest and most intense emotion of humanity, and the oldest and most intense of fears is the fear of the unknown.' - H.P. Lovecraft",
+   "info.title_more": "Explore the abyss"
 }

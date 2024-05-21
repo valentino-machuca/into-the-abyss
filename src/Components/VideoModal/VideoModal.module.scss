@@ -1,0 +1,71 @@
+.container{
+   animation: init .5s both;
+   position: absolute;
+   width: 75%;
+   height: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   border-radius: 10px;
+   top: 10%;
+   transform: translate(-50%, -50%);
+   background-color: #222222aa;
+   backdrop-filter: blur(5px);
+   z-index: 100;
+
+   .icon{
+      display:flex;
+      justify-content: flex-end;
+      width: 95%;
+      padding-right: 1%;
+      margin-bottom: 2%;
+      margin-top: 2%
+   }
+
+   .iframe{
+      border-radius: 10px;
+      width: 90%; 
+      height: 80%;
+   }
+}
+
+@keyframes init {
+   0%{
+      opacity: 0;
+      transform: translateX(20px);
+   }
+   100%{
+      opacity: 1;
+      transform: translateX(0);
+   }
+}
+
+@media screen and (max-width: 1000px) {
+   .container{
+      top: 10%;
+      width: 95%;
+      height: 80%;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .container{
+      top: 30%;
+      width: 95%;
+      height: 35%;
+
+      .icon{
+         padding-right: 5%;
+         margin-bottom: 5%;
+         margin-top: 5%
+      }
+   
+      .iframe{
+         border-radius: 10px;
+         width: 90%; 
+         height: 70%;
+      }
+   }
+
+}

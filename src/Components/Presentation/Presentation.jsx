@@ -2,12 +2,12 @@ import React from 'react';
 import s from './Presentation.module.scss';
 import { useTranslation  } from 'react-i18next';
 
-export default function Presentation() {
+export default function Presentation({setVideoOpen}) {
   const { t } = useTranslation();
 
-  const redirectTeaser = () => {
-    window.open("https://www.youtube.com/watch?v=9s-5tR0fGfM");
- }
+//   const redirectTeaser = () => {
+//     window.open("https://www.youtube.com/watch?v=9s-5tR0fGfM");
+//  }
 
   return (
     <div className={s.container}>
@@ -16,7 +16,7 @@ export default function Presentation() {
           <p style={{fontWeight: 300, marginBottom: '30px'}}>{t('intro.second_title')}</p>
           <span>{t('intro.desc')}</span>
           <div className={s.teaser}>
-            <p onClick={redirectTeaser}>Concept Teaser</p>
+            <p onClick={() => setVideoOpen(true)}>Concept Teaser</p>
           </div>
         </div>
     </div>

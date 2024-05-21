@@ -189,12 +189,10 @@
             }
 
             .box_2{
-               background-size:auto;
                background-image: url('../../Assets/asset_two.png');
             }
 
             .box_3{
-               background-size:auto;
                background-image: url('../../Assets/asset_four.png');
             }
 
@@ -218,6 +216,85 @@
             font-weight: 600;
             font-size: 1.1em;
          }
+      }
+   }
+}
+
+@media screen and (max-width: 850px) {
+
+   .container{
+      .content{
+         margin-top: 12vh;
+         
+         .title{
+            width: 90%;
+            p{
+               font-size: 1.6em;
+            }
+         }
+
+         .info{
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 5vh;
+   
+            p{
+               line-height: 18px;
+               font-size: .8em;
+            }
+   
+            .quote{
+               margin-top: 30px;
+               font-size: .7em;
+               text-align: center;
+               background-color: #282828;
+            }
+         }
+      }
+
+      .more_content{
+         margin-top: 12vh;
+
+         .title_more{
+            p{
+               font-size: 1.6em;
+            }
+         }
+
+         .links{
+            margin-top: 3vh;
+            flex-direction: column;
+
+            .main_link{
+               width: 95%;
+               height: 35%;
+            }
+
+            .other_links{
+               width: 90%;
+               height: auto;
+
+               .box_1, .box_2{
+                  margin-top: 5%;
+                  width: 100%;
+               }
+
+               .box_3, .box_4{
+                  margin-top: 3%;
+                  width: 47%;
+               }
+            }
+
+            .box_date{
+               font-size: .7em;
+            }
+   
+            .box_title{
+               margin-bottom: 15%;
+               font-size: .9em;
+            }
+         }
+
       }
    }
 }

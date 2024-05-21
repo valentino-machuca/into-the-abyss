@@ -18,5 +18,6 @@
       filter: brightness(.8) blur(2px);
       -webkit-mask-image: linear-gradient(to top, transparent, black, black);
       mask-image: linear-gradient(to top, transparent, black, black);
+      object-fit: cover;
    }
 }

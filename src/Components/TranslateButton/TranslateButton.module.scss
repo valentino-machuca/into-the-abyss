@@ -24,3 +24,21 @@
       border: 1px solid #E1E1E1;
    }
 }
+
+@media screen and (max-width: 1200px) {
+
+   .container{
+      left: 85%;
+      width: 5vw;
+      height: 5vw;
+   }
+}
+
+@media screen and (max-width: 600px) {
+
+   .container{
+      left: 80%;
+      width: 10vw;
+      height: 10vw;
+   }
+}

@@ -1,0 +1,103 @@
+.container{
+   width: 100%;
+   height: 60vh;
+   margin-top: 5vh;
+
+   .divider{
+      width: 100%;
+      height: 2%;
+      background-color: #161616;
+   }
+
+   .content{
+      .logo{
+         display: flex; justify-content: center; align-items: center;
+         width: 40%;
+         font-family: 'Montserrat', sans-serif;
+         color: #E1E1E1;
+         margin-top: 2%;
+   
+         .logo__primary{
+            margin: 0; padding: 0;
+            font-size: 2em;
+            font-weight: 300;
+            margin-right: 5px !important;
+         }
+   
+         .logo__secondary{
+            margin: 0; padding: 0;
+            font-size: 2em;
+            font-weight: 600;
+         }
+      }
+
+      .rows{
+         width: 50%;
+         display: flex;
+         justify-content: space-evenly;
+         align-items: flex-start;
+         margin-top: 5%;
+
+         .row{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            color: white;
+            
+            .title{
+               margin: 0; padding: 0;
+               font-size: 1.3em;
+               font-weight: 600;
+               margin-bottom: 30px;
+            }
+
+            .item{
+               transition: 0.3s;
+               display: flex; justify-content: center; align-items: center;
+               text-decoration: none;
+               color: white;
+               margin: 0; padding: 0;
+               font-size: 1.2em;
+               font-weight: 300;
+               margin-bottom: 10px;
+               padding: 2px;
+               border-radius: 5px;
+
+               &:hover{
+                  transition: 0.3s;
+                  scale: 1.05;
+                  background-color: #3e3e3e;
+               }
+            }
+         }
+      }
+
+      .copyright{
+         margin-top: 5%;
+         margin-left: 10%;
+         font-family: 'Montserrat', sans-serif;
+         color: rgba(255, 255, 255, 0.443);
+      }
+   }
+}
+
+
+@media screen and (max-width: 800px){
+
+   .container{
+      height: 55vh;
+      .content{
+         .logo{
+            margin-top: 8%;
+            width: 80%;
+         }
+
+         .rows{
+            width: 100%;
+            margin-top: 10%;
+            margin-bottom: 20%;
+         }
+      }
+   }
+}

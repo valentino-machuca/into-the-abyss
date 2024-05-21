@@ -57,5 +57,44 @@
          }
       }
    }
+}
 
+@media screen and (max-width: 1200px) {
+
+   .container{
+      .title{
+         width: 100%;
+      }
+      .teaser{
+         p{
+            width: 20%;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 800px) {
+
+   .container{
+      width: 85%;
+      height: 80vh;
+      align-items: flex-start;
+      .title{
+         margin-top: 20vh;
+         p{
+            font-size: 1.5em;
+         }
+   
+         span{
+            line-height: 20px;
+            font-size: 1em;
+         }
+      }
+      .teaser{
+         p{
+            font-size: .7em;
+            width: 30%;
+         }
+      }
+   }
 }

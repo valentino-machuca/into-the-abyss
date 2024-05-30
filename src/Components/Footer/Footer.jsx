@@ -3,34 +3,42 @@ import s from './Footer.module.scss';
 import { BsYoutube } from "react-icons/bs";
 import { BsDiscord } from "react-icons/bs";
 import { RiTwitterXLine } from "react-icons/ri";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
 
+   const { t } = useTranslation();
 
    const rows = [
       {
          title:"Menu",
          values: [
             {
-               text: "Inicio",
-               link: "#home"
+               text: t('nav.home'),
+               link: './#home'
             },
             {
-               text: "Información",
-               link: "#about"
+               text: t('nav.about'),
+               link: './#about'
             },
             {
-               text: "Requerimientos",
-               link: "#requirements"
+               text: t('nav.requirements'),
+               link: './#requirements'
             },
             {
-               text: "Devlogs",
-               link: "#"
+               text: t('nav.discussions'),
+               link: 'https://steamcommunity.com/app/3000460/discussions/',
+               target: '_blank'
+            },
+            {
+               text: t('nav.news'),
+               link: 'https://store.steampowered.com/news/app/3000460',
+               target: '_blank'
             }
          ]
       },
       {
-         title:"Redes",
+         title:"Network",
          values: [
             {
                text: "Youtube",
@@ -67,7 +75,7 @@ const Footer = () => {
                <div className={s.row} key={item.title + idx}>
                   <h3 className={s.title}>{item.title}</h3>
                   {item.values.map((v, indx) => (
-                     <a href={v.link} className={s.item} key={v+indx} target='_blank' rel='noreferrer'>{v.icon ? v.icon : ''}{v.text}</a>
+                     <a href={v.link} className={s.item} key={v+indx} target={v.target ? v.target : ''} rel='noreferrer'>{v.icon ? v.icon : ''}{v.text}</a>
                   ))}
                </div>
             ))}

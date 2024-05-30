@@ -36,11 +36,13 @@
       margin-top: 50px;
       width: auto;
 
-      p{
+      p, .get_steam{
+         display: flex;
+         justify-content: flex-start;
+         align-items: center;
          transition: .3s;
-         width: 130px;
-         text-align: center;
          padding: 8px;
+         height: 20px;
          border: 1px solid #E1E1E1;
          border-radius: 5px;
          color: #E1E1E1;
@@ -51,10 +53,16 @@
          &:hover{
             transition: .3s;
             cursor: pointer;
-            scale: 1.06;
-            color: #3a4d66;
-            background-color: #E1E1E1;
+            scale: 1.04;
          }
+      }
+
+      .get_steam{
+         text-decoration: none;
+         color: #222222;
+         margin-left: 15px;
+         font-weight: 500;
+         background-color: white;
       }
    }
 }
@@ -64,11 +72,6 @@
    .container{
       .title{
          width: 100%;
-      }
-      .teaser{
-         p{
-            width: 20%;
-         }
       }
    }
 }
@@ -93,7 +96,6 @@
       .teaser{
          p{
             font-size: .7em;
-            width: 30%;
          }
       }
    }

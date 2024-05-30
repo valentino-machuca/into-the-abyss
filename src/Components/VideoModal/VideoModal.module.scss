@@ -17,16 +17,30 @@
    .icon{
       display:flex;
       justify-content: flex-end;
-      width: 95%;
-      padding-right: 1%;
-      margin-bottom: 2%;
-      margin-top: 2%
+      width: 98%;
+      margin-bottom: 1%;
+      margin-top: 1%;
+
+      .close{
+         transition: .3s;
+         border-radius: 100%;
+         color: white;
+         font-size: 1.5em;
+         cursor: pointer;
+
+         &:hover{
+            transition: .3s;
+            scale: 1.04;
+            background-color: white;
+            color: #222;
+         }
+      }
    }
 
    .iframe{
       border-radius: 10px;
-      width: 90%; 
-      height: 80%;
+      width: 95%; 
+      height: 88%;
    }
 }
 
@@ -53,18 +67,12 @@
    .container{
       top: 30%;
       width: 95%;
-      height: 35%;
+      height: 40%;
 
       .icon{
-         padding-right: 5%;
-         margin-bottom: 5%;
-         margin-top: 5%
-      }
-   
-      .iframe{
-         border-radius: 10px;
-         width: 90%; 
-         height: 70%;
+         margin-top: 2%;
+         margin-bottom: 2%;
+         margin-right: 2%;
       }
    }
 

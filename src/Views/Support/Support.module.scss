@@ -1,0 +1,47 @@
+.page{
+   width: 100vw;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+   background-color: #000000;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+
+   .container{
+      width: 100%;
+      max-height: 100%;
+
+      .title{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         margin-top: 10vh;
+         
+         h2{
+            animation: init .5s .5s both;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2em;
+            letter-spacing: 3px;
+            font-weight: 400;
+            color: white;
+         }
+
+         select{
+            animation: init .5s .5s both;
+            width: 45%;
+            
+         }
+      }
+   }
+}
+
+@keyframes init {
+   0%{
+      opacity: 0;
+   }
+   100%{
+      opacity: 1;
+   }
+}
